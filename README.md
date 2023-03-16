@@ -1,8 +1,8 @@
-# userlist-generator  
-generate userslist with name, forname. Ex: john jmith -> j.smith,john-j ....
+# userlist generator  
+generate userslist with first name, last name. Ex: john jmith -> j.smith,john-s ....
 
 # Usage  
-your userslist must be in this format, first name and last name separated with a space:  
+users.txt must be in this format, first name and last name separated with a space:  
 
 john doe  
 albert camus  
@@ -11,7 +11,7 @@ albert camus
 python usergen.py --ul users.txt -o userslist.txt  
 ```  
 
-# Results  
+# Results for userslist.txt    
 
 j-d  
 j-do  
