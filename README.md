@@ -1,15 +1,18 @@
 # userlist generator  
 generate userslist with first name, last name. Ex: john jmith -> j.smith,john-s ....
-
+# Installation  
+```sh  
+git clone https://github.com/moloch54/userlist-generator; pip3 install argparse
+``` 
 # Usage  
 users.txt must be in this format, first name and last name separated with a space:  
 
 john doe  
 albert camus  
 
-```sh
-python usergen.py --ul users.txt -o userslist.txt  
-```  
+```sh  
+python3 usergen.py --ul users.txt -o userslist.txt  
+```   
 
 # Results for userslist.txt    
 
