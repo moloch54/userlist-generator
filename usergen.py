@@ -31,7 +31,9 @@ for user in userlist:
 		for i in range(1,len(user[0])+1):
 			for j in range (1,len(user[1])+1):
 		
-				final_list.append(user[0][:i]+separator+user[1][:j])		
+				final_list.append(user[0][:i]+separator+user[1][:j])
+	final_list.append(user[0])	
+	final_list.append(user[1])	
 		
 
 final_list=list(set(final_list))
