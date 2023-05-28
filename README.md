@@ -15,7 +15,8 @@ python3 usergen.py --ul users.txt -o userslist.txt
 ```   
 
 # Results for userslist.txt    
-
+john  
+doe  
 j-d  
 j-do  
 j-doe  
